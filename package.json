@@ -1,0 +1,20 @@
+{
+  "name": "business-backend",
+  "version": "1.0.0",
+  "description": "电脑维修后端相关代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenji336/business-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenji336/business-backend/issues"
+  },
+  "homepage": "https://github.com/chenji336/business-backend#readme"
+}
