@@ -38,7 +38,7 @@ process.on('SIGINT', () => {
 })
 
 async function operateMysql(apiName, sql) {
-  app.get(`/${apiName}`, async(req, res) => {
+  app.get(`/api/${apiName}`, async(req, res) => {
     try {
       const [rows] = await poolPromise.query(sql)
       res.json(rows)
