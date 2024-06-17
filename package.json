@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/chenji336/business-backend/issues"
   },
-  "homepage": "https://github.com/chenji336/business-backend#readme"
+  "homepage": "https://github.com/chenji336/business-backend#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.9"
+  }
 }
